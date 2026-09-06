@@ -1,0 +1,16 @@
+0x0000000000018e20 <sky_linux::client::args::Args
+0x000000000001b7c0 sky_linux::main
+0x000000000001e470 sky_linux::client::x11::paste_text::TemporaryClipboard::new::{{closure}}
+0x0000000000035210 <sky_linux::client::x11::full_desktop::client::X11FullDesktopClient
+0x000000000003a1c0 <sky_linux::protocol::direction::_::<impl
+0x000000000003a380 <sky_linux::protocol::mouse_button::_::<impl
+0x0000000000040fe0 core::ptr::drop_in_place<alloc::vec::Vec<sky_linux::protocol::full_desktop::screenshot::Screenshot>>
+0x0000000000042ce0 core::ptr::drop_in_place<sky_linux::protocol::full_desktop::drag::Input>
+0x0000000000042d10 core::ptr::drop_in_place<sky_linux::client::x11::key_presser::KeyPresser>
+0x0000000000043220 core::ptr::drop_in_place<sky_linux::client::x11::paste_text::TemporaryClipboard>
+0x0000000000054a20 sky_linux::client::x11::key_presser::KeyPresser::new
+0x0000000000054f00 sky_linux::client::x11::keys::keys
+0x0000000000056970 sky_linux::client::x11::context::send_event_at_position
+0x0000000000056ea0 sky_linux::client::x11::context::env_str
+0x0000000000056fb0 sky_linux::client::x11::move_path::move_path
+0x0000000000057690 sky_linux::client::Client::run_full_desktop_command

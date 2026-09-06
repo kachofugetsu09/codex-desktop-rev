@@ -1,0 +1,102 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1066 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (3075 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj/sky_linux (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj/sky_linux (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj/sky_linux (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/sky_linux_x64 (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/sky_linux_x64?MD5=4e46e8e3a7d40c17667eaf58b6462114...
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current2id2ID17h47c8df56e3a4fbbeE
+Unsupported Thread-Local Symbol not loaded: _ZN3std4sync4mpmc7context7Context4with7CONTEXT29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17hcdd7961df73c3aa3E
+Unsupported Thread-Local Symbol not loaded: _ZN3std4sync4mpmc5waker17current_thread_id5DUMMY29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17hf9e8435432ce65d5E
+Unsupported Thread-Local Symbol not loaded: _ZN3std4hash6random11RandomState3new4KEYS29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17hd84561f74b55d637E
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread7current7CURRENT17h99531a494c1a6addE
+Unsupported Thread-Local Symbol not loaded: _ZN3exr11compression14optimize_bytes13SCRATCH_SPACE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17h6189b497bb400c35E
+Unsupported Thread-Local Symbol not loaded: _ZN10rayon_core8registry19WORKER_THREAD_STATE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17hf95a5c99af3af17dE
+Unsupported Thread-Local Symbol not loaded: _ZN15crossbeam_epoch7default6HANDLE29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17hf329b0b10bca0c6cE
+Unsupported Thread-Local Symbol not loaded: _ZN3std9panicking11panic_count17LOCAL_PANIC_COUNT29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17h2d25f7bafef59b08E
+Unsupported Thread-Local Symbol not loaded: _ZN3std3sys12thread_local11destructors4list5DTORS17heef972fcfda00bcdE
+Unsupported Thread-Local Symbol not loaded: _ZN3std6thread9spawnhook11SPAWN_HOOKS29_$u7b$$u7b$constant$u7d$$u7d$28_$u7b$$u7b$closure$u7d$$u7d$23__RUST_STD_INTERNAL_VAL17h00846c04a8366db6E
+Setting block .tdata to read-only
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+Installed 3 Rust cspec extensions
+------------------------------------------------
+
+Linking the External Programs of 'sky_linux_x64' to imported libraries...
+  [libX11.so.6] -> not found in project
+  [libgcc_s.so.1] -> not found in project
+  [libm.so.6] -> not found in project
+  [libc.so.6] -> not found in project
+------------------------------------------------
+
+Resolving External Symbols of [/sky_linux_x64] - 100 unresolved symbols, no external libraries configured - skipping
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileTargets.java '/mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/target_funcs.txt' '/mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/decompiled'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/DecompileTargets.java (HeadlessAnalyzer)  
+INFO  DecompileTargets.java> Targets to decompile: 16 (GhidraScript)  
+INFO  DecompileTargets.java> Done. decompiled=0 failed=16 (GhidraScript)  
+INFO  DecompileTargets.java> createFunction failed: <sky_linux::client::args::Args @0x0000000000018e20
+createFunction failed: sky_linux::main @0x000000000001b7c0
+createFunction failed: sky_linux::client::x11::paste_text::TemporaryClipboard::new::{{closure}} @0x000000000001e470
+createFunction failed: <sky_linux::client::x11::full_desktop::client::X11FullDesktopClient @0x0000000000035210
+createFunction failed: <sky_linux::protocol::direction::_::<impl @0x000000000003a1c0
+createFunction failed: <sky_linux::protocol::mouse_button::_::<impl @0x000000000003a380
+createFunction failed: core::ptr::drop_in_place<alloc::vec::Vec<sky_linux::protocol::full_desktop::screenshot::Screenshot>> @0x0000000000040fe0
+createFunction failed: core::ptr::drop_in_place<sky_linux::protocol::full_desktop::drag::Input> @0x0000000000042ce0
+createFunction failed: core::ptr::drop_in_place<sky_linux::client::x11::key_presser::KeyPresser> @0x0000000000042d10
+createFunction failed: core::ptr::drop_in_place<sky_linux::client::x11::paste_text::TemporaryClipboard> @0x0000000000043220
+createFunction failed: sky_linux::client::x11::key_presser::KeyPresser::new @0x0000000000054a20
+createFunction failed: sky_linux::client::x11::keys::keys @0x0000000000054f00
+createFunction failed: sky_linux::client::x11::context::send_event_at_position @0x0000000000056970
+createFunction failed: sky_linux::client::x11::context::env_str @0x0000000000056ea0
+createFunction failed: sky_linux::client::x11::move_path::move_path @0x0000000000056fb0
+createFunction failed: sky_linux::client::Client::run_full_desktop_command @0x0000000000057690
+ (GhidraScript)  
+INFO  /sky_linux_x64: file created (huashen) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /sky_linux_x64 (sky_linux:/sky_linux_x64) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

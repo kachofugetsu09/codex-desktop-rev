@@ -1,0 +1,6 @@
+{
+  "name": "unified-computer-use",
+  "version": "26.901.31953",
+  "description": "App-managed browser automation runtime.",
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,6 @@
+computer_use
+ComputerUse
+computer-use
+computeruse
+ComputerUseElicitation
+macos_approvals

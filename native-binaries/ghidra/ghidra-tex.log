@@ -1,0 +1,95 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1193 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2788 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_tex/texRE (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_tex/texRE (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_tex/texRE (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/tectonic (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/tectonic?MD5=4afa8003f44ad9f237e4a68ea2352ac3...
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCscQq8MOjtzp1_12thread_local9thread_id12THREAD_GUARD0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs7fYj8CPDjag_4rand4rngs6thread14THREAD_RNG_KEY0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std9panicking11panic_count17LOCAL_PANIC_COUNT0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std2io5stdio14OUTPUT_CAPTURE0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtNtNtCs268jdzri8zx_3std3sys12thread_local11destructors4list5DTORS
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs6GyCOKPkztd_9watchexec2id7COUNTER0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _ZZN12_GLOBAL__N_110get_globalEvE6global
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCsagHZnuayYkL_7reqwest4util11fast_random3KEY0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCsagHZnuayYkL_7reqwest4util11fast_random7COUNTER0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtNtCsgQG9uXH9VMT_6chrono6offset5local5inner7TZ_INFO0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _ZSt11__once_call
+Unsupported Thread-Local Symbol not loaded: _ZSt15__once_callable
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCsfoWRuo2WL5W_18tracing_subscriber6filter13layer_filters9FILTERING0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std6thread9spawnhook11SPAWN_HOOKS0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCsfoWRuo2WL5W_18tracing_subscriber8registry7sharded11CLOSE_COUNT0s_023___RUST_STD_INTERNAL_VAL.llvm.16336932436712719959
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtNtCs268jdzri8zx_3std6thread7current2id2ID
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs68qq9mATycw_12sharded_slab3tid12REGISTRATION0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCscQq8MOjtzp1_12thread_local9thread_id6THREAD0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvXsa_NtNtCsfoWRuo2WL5W_18tracing_subscriber3fmt9fmt_layerINtBd_5LayerppppEINtNtBh_5layer5LayerpE8on_event3BUF0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvMNtNtNtCs268jdzri8zx_3std4sync4mpmc7contextNtBa_7Context4with7CONTEXT0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCsbbHlePwNmti_5tokio7runtime7context7CONTEXT0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCsbbHlePwNmti_5tokio7runtime4park14CURRENT_PARKER0023___RUST_STD_INTERNAL_VAL.llvm.2155768657123244579
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs8tpUdZRqxOS_12tracing_core10dispatcher13CURRENT_STATE0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCsbBZLkIJwmFr_8fastrand10global_rng3RNG0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtNtCs6tmXYgVzUvQ_14regex_automata4util4pool5inner9THREAD_ID0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtCs268jdzri8zx_3std6thread7current7CURRENT
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtNtNtCs268jdzri8zx_3std4sync4mpmc5waker17current_thread_id5DUMMY0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCscQAu5eV4mxq_21tectonic_xetex_layout7manager8FONT_MGR0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvMNtNtCs268jdzri8zx_3std4hash6randomNtBa_11RandomState3new4KEYS0s_023___RUST_STD_INTERNAL_VAL
+Setting block .tdata to read-only
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+Installed 3 Rust cspec extensions
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileAny.java '/mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/kw_tex.txt' '/mnt/data/source-code/codex-desktop-rev/native-binaries/decompiled/tectonic' '200'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/DecompileAny.java (HeadlessAnalyzer)  
+INFO  DecompileAny.java> Keywords: [tectonic::] (GhidraScript)  
+INFO  DecompileAny.java> Matched symbols: 0 (GhidraScript)  
+INFO  DecompileAny.java> Decompiled matched functions: 0 -> /mnt/data/source-code/codex-desktop-rev/native-binaries/decompiled/tectonic (GhidraScript)  
+INFO  /tectonic: file created (huashen) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /tectonic (texRE:/tectonic) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

@@ -1,0 +1,12 @@
+id:`computerUse.label => `Computer use`
+id:`computerUse.label => `Computer use`
+id:`computerUse.nativeApps.microsoftExcel.detail => `Live workbook control`
+id:`computerUse.nativeApps.microsoftPowerPoint.detail => `Live presentation control`
+id:`computerUse.nativeApps.mac.title => `Mac apps`
+id:`computerUse.nativeApps.mac.loading => `Loading Mac apps…`
+id:`computerUse.nativeApps.desktop.title => `Desktop apps`
+id:`computerUse.nativeApps.desktop.loading => `Loading desktop apps…`
+id:`composer.computerUseAppApproval.disclosure => `Computer Use lets ChatGPT use apps on your computer. It may take screenshots of app contents while working. You can choose which apps ChatGPT can access, stop actions at any time, and control whether screenshots are used for training.`
+id:`composer.computerUseAppApproval.title.chatgpt => `Allow ChatGPT to use {appDisplayName}?`
+id:`composer.computerUseAppApproval.action.alwaysApprove => `Always allow`
+id:`composer.computerUseAppApproval.action.approve => `Allow this conversation`

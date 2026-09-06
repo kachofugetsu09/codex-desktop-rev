@@ -1,0 +1,13 @@
+// 003822e8  undefined __libc_start_main(void)
+
+/* WARNING: Control flow encountered bad instruction data */
+
+void __libc_start_main(void)
+
+{
+                    /* WARNING: Bad instruction - Truncating control flow here */
+                    /* __libc_start_main@GLIBC_2.34 */
+  halt_baddata();
+}
+
+

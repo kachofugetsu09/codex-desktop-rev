@@ -1,0 +1,101 @@
+openjdk version "21.0.12.1" 2026-08-18
+OpenJDK Runtime Environment (build 21.0.12.1+1)
+OpenJDK 64-Bit Server VM (build 21.0.12.1+1, mixed mode)
+INFO  Using log config file: jar:file:/opt/ghidra/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /home/huashen/.config/ghidra/ghidra_12.1.2_DEV/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1069 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2690 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /opt/ghidra/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/DATA/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/JVM/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/VersionTracking/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/PyGhidra/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Base/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/Atmel/ghidra_scripts
+    /opt/ghidra/Ghidra/Debug/Debugger/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/Decompiler/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FunctionID/ghidra_scripts
+    /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra
+    /opt/ghidra/Ghidra/Features/PDB/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/8051/ghidra_scripts
+    /opt/ghidra/Ghidra/Processors/PIC/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/FileFormats/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BSim/ghidra_scripts
+    /opt/ghidra/Ghidra/Features/BytePatterns/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_nr/nodeRE (HeadlessAnalyzer)  
+INFO  Creating project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_nr/nodeRE (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/proj_nr/nodeRE (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/node_repl (HeadlessAnalyzer)  
+INFO  Using Loader: Executable and Linking Format (ELF) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:gcc (ProgramLoader)  
+INFO  Using Library Search Path: [., /bin, /lib, /lib64, /lib/x86_64-linux-gnu, /lib/aarch64-linux-gnu, /usr/bin, /usr/lib, /usr/X11R6/bin, /usr/X11R6/lib, /usr/java/packages/lib, /usr/lib64] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///mnt/data/source-code/codex-desktop-rev/native-binaries/bin/node_repl?MD5=ba5f11de3ada2722b198078e18e0e43d...
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCsdRbrhb1yeWm_12thread_local9thread_id12THREAD_GUARD0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs3THh2FLzPmq_9backtrace4lock9LOCK_HELD0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCscl07cFSPRyj_4rand4rngs6thread14THREAD_RNG_KEY0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCs1aziAZjRIav_7reqwest4util11fast_random3KEY0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std9panicking11panic_count17LOCAL_PANIC_COUNT0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std2io5stdio14OUTPUT_CAPTURE0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtNtNtCs268jdzri8zx_3std3sys12thread_local11destructors4list5DTORS
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs32bYmcfkOWQ_16futures_executor5enter7ENTERED0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs2mZccimXFED_14sentry_tracing5layer14VISITOR_BUFFER0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCsiPl7rbs3Bzf_7reqwest4util11fast_random3KEY0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCsd4hMm7QzoIE_11sentry_core8hub_impl10THREAD_HUB0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs268jdzri8zx_3std6thread9spawnhook11SPAWN_HOOKS0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs7RVlXLqdk8B_18tracing_subscriber8registry7sharded11CLOSE_COUNT0s_023___RUST_STD_INTERNAL_VAL.llvm.5054335733131630165
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs7RVlXLqdk8B_18tracing_subscriber6filter13layer_filters9FILTERING0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtNtCs268jdzri8zx_3std6thread7current2id2ID
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs68qq9mATycw_12sharded_slab3tid12REGISTRATION0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCsiPl7rbs3Bzf_7reqwest4util11fast_random7COUNTER0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvMNtNtNtCs268jdzri8zx_3std4sync4mpmc7contextNtBa_7Context4with7CONTEXT0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtCs1aziAZjRIav_7reqwest4util11fast_random7COUNTER0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs9wVyiqzet80_5tokio7runtime7context7CONTEXT0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs32bYmcfkOWQ_16futures_executor10local_pool21CURRENT_THREAD_NOTIFY0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs2mZccimXFED_14sentry_tracing5layer11SPAN_GUARDS0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCs8tpUdZRqxOS_12tracing_core10dispatcher13CURRENT_STATE0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtCs9wVyiqzet80_5tokio7runtime4park14CURRENT_PARKER0023___RUST_STD_INTERNAL_VAL.llvm.10369498113546015381
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvXsa_NtNtCs7RVlXLqdk8B_18tracing_subscriber3fmt9fmt_layerINtBd_5LayerppppEINtNtBh_5layer5LayerpE8on_event3BUF0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCskOR5ytpXnzK_13opentelemetry7context15CURRENT_CONTEXT0023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCsdRbrhb1yeWm_12thread_local9thread_id6THREAD0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNtNtCs268jdzri8zx_3std6thread7current7CURRENT
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvNtNtNtCs268jdzri8zx_3std4sync4mpmc5waker17current_thread_id5DUMMY0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNvMNtNtCs268jdzri8zx_3std4hash6randomNtBa_11RandomState3new4KEYS0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtCsa5osl5kcm5t_8fastrand10global_rng3RNG0s_023___RUST_STD_INTERNAL_VAL
+Unsupported Thread-Local Symbol not loaded: _RNvNCNKNvNtNtNtCsiGDGdkQlt4l_14regex_automata4util4pool5inner9THREAD_ID0s_023___RUST_STD_INTERNAL_VAL
+Failed to properly markup Hash table at 00100238: Insufficent memory at address 00100241 (length: 4 bytes)
+Failed to properly markup GNU Hash table at 00100248: Insufficent memory at address 00100264 (length: 1 bytes)
+Setting block .tdata to read-only
+Setting block .init_array to read-only
+Setting block .fini_array to read-only
+Setting block .data.rel.ro to read-only
+Setting block .dynamic to read-only
+Installed 3 Rust cspec extensions
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DecompileAny.java '/mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/kw_node_repl.txt' '/mnt/data/source-code/codex-desktop-rev/native-binaries/decompiled/node_repl_computer_use' '200'  (HeadlessAnalyzer)  
+INFO  SCRIPT: /mnt/data/source-code/codex-desktop-rev/native-binaries/ghidra/DecompileAny.java (HeadlessAnalyzer)  
+INFO  DecompileAny.java> Keywords: [computer_use, computeruse, computer-use, computeruse, computeruseelicitation, macos_approvals] (GhidraScript)  
+INFO  DecompileAny.java> Matched symbols: 18 (GhidraScript)  
+INFO  DecompileAny.java> Decompiled matched functions: 18 -> /mnt/data/source-code/codex-desktop-rev/native-binaries/decompiled/node_repl_computer_use (GhidraScript)  
+INFO  /node_repl: file created (huashen) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /node_repl (nodeRE:/node_repl) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  
